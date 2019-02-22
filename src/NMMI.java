@@ -79,6 +79,7 @@ public class NMMI extends javax.swing.JFrame {
                 "NOMBRE", "DEPARTAMENTOS", "CODIGO", "SUELDO", "COMISIONES", "BONIFICACIONES", "IGGS", "ISR", "SUELDO LIQUIDO"
             }
         ));
+        jTable1.setEnabled(false);
         jTable1.setRowHeight(30);
         jScrollPane1.setViewportView(jTable1);
 
