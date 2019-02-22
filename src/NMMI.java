@@ -251,6 +251,7 @@ public class NMMI extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
 
         
+     //Boton para ingresar a la tabla/planilla
      
         jButton4.setVisible(false);
         
@@ -372,6 +373,9 @@ public class NMMI extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextField8ActionPerformed
 
     public String departamento(){
+        
+        //funcion para departamento
+        
         String res="";
         
         if(jComboBox2.getSelectedIndex()==0)
@@ -464,6 +468,8 @@ public class NMMI extends javax.swing.JFrame {
         
     }//GEN-LAST:event_JrandMouseClicked
     public void sueldol(){
+        
+        //funcion total sueldo
         
     int depart=Integer.parseInt(departamento());
     double suel9, com9, bon9, igs9,isr9;
